@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def id_best_users(*args)
   best = args.reduce(:&)
   year = args.reduce(:+)
